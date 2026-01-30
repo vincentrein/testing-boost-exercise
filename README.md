@@ -1,5 +1,7 @@
 # SIDEMADE - Simple Dense Matrix Decomposition
 
+![CMake Build & Test](https://github.com/vincentrein/testing-boost-exercise/actions/workflows/cmake.yml/badge.svg)
+
 A simple demo code to read dense matrices from files and solve linear systems with them.
 
 ## Folder Structure
