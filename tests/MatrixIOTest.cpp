@@ -1,14 +1,15 @@
-#include "matrixIO.hpp"
 #include <boost/test/unit_test.hpp>
-#include <fstream>
 #include <cstdio>
+#include <fstream>
+#include "matrixIO.hpp"
 
 BOOST_AUTO_TEST_SUITE(MatrixIOTests)
 
-BOOST_AUTO_TEST_CASE(TestOpenData) {
+BOOST_AUTO_TEST_CASE(TestOpenData)
+{
   const std::string filename = "test_matrix_temp.csv";
-  const int size = 2;
-  
+  const int         size     = 2;
+
   {
     std::ofstream outfile(filename);
     outfile << "1.0, 2.0\n";
